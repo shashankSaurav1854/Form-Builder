@@ -11,7 +11,7 @@
     "start": "remix-serve ./build/server/index.js",
     "typecheck": "tsc",
     "predeplay": "npm run build",
-    "deploy": "gh-pages -d build/client"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@remix-run/node": "^2.16.7",
