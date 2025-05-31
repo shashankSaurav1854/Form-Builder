@@ -21,5 +21,5 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
-  base: "/Form-Builder",
+  base: '/Form-Builder/',
 });
