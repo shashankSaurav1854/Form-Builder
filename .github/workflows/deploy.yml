@@ -1,5 +1,8 @@
 name: Deploy
 
+permissions:
+    contents: write
+
 on:
   push:
     branches:
@@ -48,5 +51,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build/clien
           
-  permissions:
-    contents: write
