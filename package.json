@@ -1,4 +1,5 @@
 {
+  "homepage": "https://shashanksaurav1854.github.io/Form-Builder/",
   "name": "form-builder",
   "private": true,
   "sideEffects": false,
@@ -8,12 +9,15 @@
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/server/index.js",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "predeplay": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@remix-run/node": "^2.16.7",
     "@remix-run/react": "^2.16.7",
     "@remix-run/serve": "^2.16.7",
+    "gh-pages": "^6.3.0",
     "isbot": "^4.1.0",
     "lucide-react": "^0.511.0",
     "react": "^18.2.0",
